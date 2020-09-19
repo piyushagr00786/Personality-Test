@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/counselorforeground" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The INFJ Personality Type"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFJs are creative nurturers with a strong sense of personal integrity and a drive to help others realize their potential. Creative and dedicated, they have a talent for helping others with original solutions to their personal challenges.
+
+The Counselor has a unique ability to intuit others' emotions and motivations, and will often know how someone else is feeling before that person knows it himself. They trust their insights about others and have strong faith in their ability to read people. Although they are sensitive, they are also reserved; the INFJ is a private sort, and is selective about sharing intimate thoughts and feelings."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What does INFJ stand for?"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFJ is one of the sixteen personality types created by Katharine Briggs and Isabel Myers. INFJ is an acronym for the personality traits of Introversion, iNtuition, Feeling, and Judging. The INFJ type is also called the Counselor and is described as idealistic, compassionate, and sensitive.
+
+Each of the four letters of the INFJ code signifies a key personality trait of this type. INFJs are energized by time alone (Introverted), focus on ideas and concepts rather than facts and details (iNtuitive), make decisions based on feelings and values (Feeling) and prefer to be planned and organized rather than spontaneous and flexible (Judging)."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFJ Values and Motivations"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="INFJ is one of the sixteen personality types created by Katharine Briggs and Isabel Myers. INFJ is an acronym for the personality traits of Introversion, iNtuition, Feeling, and Judging. The INFJ type is also called the Counselor and is described as idealistic, compassionate, and sensitive.
+
+Each of the four letters of the INFJ code signifies a key personality trait of this type. INFJs are energized by time alone (Introverted), focus on ideas and concepts rather than facts and details (iNtuitive), make decisions based on feelings and values (Feeling) and prefer to be planned and organized rather than spontaneous and flexible (Judging)."
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Famous INFJs"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Famous INFJs include Mohandas Gandhi, Eleanor Roosevelt, Emily Bronte, Carl Jung, Fyodor Dostoevsky, Florence Nightingale, Shirley MacLaine, Jimmy Carter, and Edward Snowden."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

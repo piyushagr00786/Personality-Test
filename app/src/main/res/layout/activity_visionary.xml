@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/visionaryforeground" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What does ENTP stands for?"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTP is an acronym used to describe one of the sixteen personality types created by Katharine Briggs and Isabel Myers. It stands for Extraverted, iNtuitive, Thinking, Perceiving. ENTP indicates a person who is energized by time spent with others (Extraverted), who focuses on ideas and concepts rather than facts and details (iNtuitive), who makes decisions based on logic and reason (Thinking) and who prefers to be spontaneous and flexible rather than planned and organized (Perceiving). ENTPs are sometimes referred to as Visionary personalities because of their passion for new, innovative ideas."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENTP Values and Motivations"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ENTPs are energized by challenge and are often inspired by a problem that others perceive as impossible to solve. They are confident in their ability to think creatively, and may assume that others are too tied to tradition to see a new way. The Visionary relies on their ingenuity to deal with the world around them, and rarely finds preparation necessary. They will often jump into a new situation and trust themselves to adapt as they go.
+
+ENTPs are masters of re-inventing the wheel and often refuse to do a task the same way twice. They question norms and often ignore them altogether. Established procedures are uninspiring to the Visionary, who would much rather try a new method (or two) than go along with the standard."
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Famous ENTPs"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Famous ENTPs include Steve Jobs, Walt Disney, Thomas Edison, Benjamin Franklin, Richard Feynman, Leonardo da Vinci, Niccolo Machiavelli, John Stuart Mill, Jon Stewart, “Weird Al” Yankovic, and Conan O’Brien."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

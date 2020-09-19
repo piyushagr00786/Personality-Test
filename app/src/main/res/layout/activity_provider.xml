@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/providerforeground" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What does ESFJ stands for?"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESFJ is an acronym used to describe one of the sixteen personality types created by Katharine Briggs and Isabel Myers. It stands for Extraverted, Sensing, Feeling, Judging. ESFJ indicates a person who is energized by time spent with others (Extraverted), who focuses on facts and details rather than ideas and concepts (Sensing), who makes decisions based on feelings and values (Feeling) and who prefers to be planned and organized rather than spontaneous and flexible (Judging). ESFJs are sometimes referred to as Provider personalities because of their interest in taking care of others in practical ways."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESFJ Values and Motivations"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ESFJs act according to a strict moral code, and look for others to do the same. They often see things in terms of black and white, right and wrong, and they are typically not shy about sharing their evaluations of others' behavior. ESFJs seek harmony and cooperation, and feel this is best accomplished when everyone follows the same set of rules. They have a sense of order in the way people relate to one another, and often take on roles that allow them to help enforce that social order.
+
+ESFJs feel a sense of personal responsibility for other people's needs, and are usually eager to get involved and help out. They tend to be serious and practical, dutifully putting business before pleasure—especially the business of caring for others. They typically enjoy routine and often keep a regular schedule that allows them to be organized and productive.
+
+"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Famous ESFJs"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Famous ESFJs include Martha Stewart, Dave Thomas, Sam Walton, Barbara Walters, William Howard Taft, JC Penney, Sally Field, Mary Tyler Moore, and Ray Kroc."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

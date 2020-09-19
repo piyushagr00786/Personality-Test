@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/healerforeground" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What does INFP stand for?"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFP is an acronym used to describe one of the sixteen personality types created by Katharine Briggs and Isabel Myers. It stands for Introverted, iNtuitive, Feeling, Perceiving. INFP indicates a person who is energized by time alone (Introverted), who focuses on ideas and concepts rather than facts and details (iNtuitive), who makes decisions based on feelings and values (Feeling) and who prefers to be spontaneous and flexible rather than planned and organized (Perceiving). INFPs are sometimes referred to as Healer personalities due to their sympathetic idealism and gentle compassion for other people."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFP Values and Motivations"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFPs value authenticity and want to be original and individual in what they do. They are often concerned with a search for meaning and truth within themselves. Following tradition holds little appeal for the INFP; they prefer to do their own exploration of values and ideas, and decide for themselves what seems right. INFPs are often offbeat and unconventional, but they feel no desire to conform. The INFP would rather be true to themselves than try to fit in with the crowd.
+
+INFPs are accepting and nonjudgmental in their treatment of others, believing that each person must follow their own path. They are flexible and accommodating, and can often see many points of view. It is important to the INFP to support other people; however, the INFP may react strongly if they feel their own values are being violated. They especially hate being steamrolled by people who insist there is one right way to do things. INFPs want an open, supportive exchange of ideas."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Famous INFPs"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Famous INFPs include Princess Diana, Audrey Hepburn, Fred Rogers, John Lennon, Kurt Cobain, Tori Amos, Morrissey, Chloe Sevigny, William Shakespeare, Bill Watterson, A.A. Milne, Helen Keller, Carl Rogers, and Isabel Briggs Myers (creator of the Myers-Briggs Type Indicator)."
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
